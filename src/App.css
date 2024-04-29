@@ -1,0 +1,136 @@
+   /* Base styling for the whole app */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif; /* Use elegant serif fonts */
+  background-color: #F2E3CE; /* Light beige or cream background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Main heading styling */
+h1 {
+  text-align: center;
+  color: #7D3030; /* Deep burgundy color */
+  font-size: 2em;
+  padding: 10px;
+  border-bottom: 1px solid #D9B99B; /* Light brown border */
+}
+
+/* Form styling */
+form {
+  background-color: #FAF4E6; /* Light cream background */
+  border: 1px solid #D9B99B;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #7D3030; /* Deep burgundy color */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D9B99B; /* Light brown border */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7D3030; /* Deep burgundy color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #5A1E1E; /* Darker shade on hover */
+}
+
+button.edit {
+  background-color: #7D3030;
+}
+
+button.delete {
+  background-color: #C0392B; /* Red for delete */
+}
+
+button.delete:hover {
+  background-color: #8E261F; /* Darker red on hover */
+}
+h2 {
+  text-align: center;
+  color: #7D3030;
+}
+
+/* table style */
+.wine-table {
+  width: 100%; /* Full width */
+  border-collapse: separate; /* No merging of cell borders */
+  margin-bottom: 20px; /* Space below the table */
+}
+
+.wine-table th {
+  padding: 10px;
+  text-align: center;
+}
+
+.wine-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.wine-table tbody tr {
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.wine-table tbody tr:hover {
+  background-color: #f0f0f0; /* Highlight row on hover */
+}
+
+/* Basic button styling */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s; /* Smooth transitions for all changes */
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Edit button effects */
+.edit-button {
+  background-color: #3498db; /* Base color for edit */
+  color: white;
+}
+
+/* Hover effect for edit button */
+.edit-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow effect on hover */
+  transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Delete button effects */
+.delete-button {
+  background-color: #e74c3c; /* Base color for delete */
+  color: white;
+}
+
+/* Hover effect for delete button */
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow effect on hover */
+  transform: scale(1.05); /* Slight scaling effect */
+}
+
